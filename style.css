@@ -1,5 +1,9 @@
 /* -------  General Styles ------- */
 
+html {
+  width: fit-content;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -67,6 +71,7 @@ header {
 header nav ul {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 }
 
 header nav ul li {
@@ -147,7 +152,6 @@ footer p {
 
   form {
     flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .group {
