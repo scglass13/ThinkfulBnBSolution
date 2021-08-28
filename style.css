@@ -92,6 +92,7 @@ header nav ul li a:hover {
 form {
   display: flex;
   flex-direction: column;
+  flex-wrap: inherit;
   justify-content: space-between;
   border: 2px solid #ff385c;
   padding: 10px;
@@ -115,6 +116,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  justify-content: center;
 }
 
 /* -------  Footer ------- */
